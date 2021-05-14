@@ -129,10 +129,12 @@ const data: Plot[] = [{
 }];
 
 const layout: Layout = [
-  polar: {
-    radialaxis: {
-      visible: true,
-      range: [0, 50]
+  {
+    polar: {
+      radialaxis: {
+        visible: true,
+        range: [0, 50]
+      }
     }
   }
 ];
